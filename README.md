@@ -1,9 +1,9 @@
-`urls.py` is a Python program that collects the data URLs tweeted by
-[@hindsightfiles](https://twitter.com/hindsightfiles) and makes sure that they
-are archived at the Internet Archive. It outputs a CSV file containing
-information about the URLs that were found and archived. Along the way the
-program also will archive each of the tweets that @hindsightfiles has sent at
-the Internet Archive.
+The repository contains a small Python program `urls.py` that collects the data
+URLs tweeted by [@hindsightfiles](https://twitter.com/hindsightfiles) and makes
+sure that they are archived at the Internet Archive. It outputs a CSV file
+containing information about the URLs that were found and archived. Along the
+way the program also will archive each of the tweets that @hindsightfiles has
+sent at the Internet Archive.
 
 Here is the list of zip files that have been tweeted so far with their HTTPS
 address (generated from `urls.csv` with `readme.py`):
