@@ -12,7 +12,6 @@ import time
 import twarc
 import logging
 import requests
-import datetime
 import dateutil.parser
 
 def main():
