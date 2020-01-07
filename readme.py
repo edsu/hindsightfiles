@@ -22,4 +22,4 @@ for row in csv.DictReader(open('urls.csv')):
         seen[filename]['md5'] = md5
 
 for r in seen.values():
-    print('* {filename} at {url} archived at {archive_url} with md5={md5}'.format(**r))
+    print('* {url} archived at {archive_url} with MD5 {md5}'.format(**r))
