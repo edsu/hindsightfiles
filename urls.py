@@ -30,7 +30,6 @@ def main():
             logging.info('found %s, archived at %s', url['url'], url['archive_url'])
             out.writerow(url)
             seen.add(url['url'])
-         
 
 def repo_urls():
     urls = []
