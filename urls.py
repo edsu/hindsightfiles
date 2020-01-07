@@ -6,7 +6,6 @@ This script will search for all the download files that were tweeted by
 are written to urls.csv.
 """
 
-
 import csv
 import json
 import time
