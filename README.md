@@ -1,6 +1,6 @@
 The repository contains a small Python program `urls.py` that collects the data
 URLs tweeted by [@hindsightfiles](https://twitter.com/hindsightfiles) and makes
-sure that they are archived at the Internet Archive.
+sure that they are archived at the [Internet Archive](https://archive.org).
 
 It outputs a CSV file `urls.csv` that contains information about the URLs that
 were found and archived. Along the way the program also will archive each of the
