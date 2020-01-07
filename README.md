@@ -6,8 +6,9 @@ It outputs a CSV file `urls.csv` that contains information about the URLs that
 were found and archived. Along the way the program also will archive each of the
 tweets and any data files that @hindsightfiles has sent.
 
-Here is the list of zip files that have been tweeted so far with their HTTPS
-address (generated from `urls.csv` with `readme.py`):
+In case you don't like reading CSV here is the list of the zip files that have
+been tweeted with their HTTPS address. This list is generated from `urls.csv`
+with `readme.py`
 
 * https://repo.hindsightfiles.com/01042020/iran.zip archived at https://web.archive.org/web/20200106035808/https://repo.hindsightfiles.com/01042020/iran.zip with MD5 c9f5688e32d45eeb748c0e5395900477
 * https://repo.hindsightfiles.com/01012020/brazil.zip archived at https://web.archive.org/web/20200106074039/https://repo.hindsightfiles.com/01012020/brazil.zip with MD5 681c1c85ffe49619372d4549b02d4d08
