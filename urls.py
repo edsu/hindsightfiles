@@ -2,7 +2,7 @@
 
 """
 This script will search for all the download files that were tweeted by
-@HindsightFiles and make sure they are up at the  Internet Archive. The results
+@HindsightFiles and make sure they are up at the Internet Archive. The results
 are written to urls.csv.
 """
 
