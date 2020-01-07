@@ -15,3 +15,9 @@ with `readme.py`
 * https://repo.hindsightfiles.com/01012020/malaysia.zip archived at https://web.archive.org/web/20200106074036/https://repo.hindsightfiles.com/01012020/malaysia.zip with MD5 eea55bf4b6b6e832118a562d42e18290
 * https://repo.hindsightfiles.com/01012020/kenya.zip archived at https://web.archive.org/web/20200107035132/https://repo.hindsightfiles.com/01012020/kenya.zip with MD5 c65dd80635194d7ef611cbe30b9f5093
 * https://repo.hindsightfiles.com/01042020/bolton.zip archived at https://web.archive.org/web/20200106074034/https://repo.hindsightfiles.com/01042020/bolton.zip with MD5 cc1ab22f4d0befdde313598237614136
+
+For convenience there is a bagit directory which contains the URLs in a
+fetch.txt file with the tweeted checksums to allow you to reconsitute the data
+and verify it:
+
+

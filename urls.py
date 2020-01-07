@@ -22,9 +22,15 @@ def main():
         fieldnames=['url', 'tweeted_at', 'tweet_url', 'archive_url', 'archived_at']
     )
     out.writeheader()
-    for url in repo_urls():
-        logging.info('found %s, archived at %s', url['url'], url['archive_url'])
-        out.writerow(url)
+
+    # seen is used to not output the same URL twice if it was tweetd twice
+    seen = set()
+    for url in sorted(repo_urls(), key=lambda u: u['tweeted_at'], reverse=True):
+        if url['url'] not in seen:
+            logging.info('found %s, archived at %s', url['url'], url['archive_url'])
+            out.writerow(url)
+            seen.add(url['url'])
+         
 
 def repo_urls():
     urls = []
